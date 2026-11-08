@@ -31,5 +31,4 @@ public class Connection implements AutoCloseable {
       throw new Exception("Connection " + name + ".close() failed");
     }
   }
-
 }
